@@ -1,5 +1,5 @@
 ## Description
-This repository contains a sample node.js script to import content in the Nuxeo Platform using a CSV file.
+This repository contains a sample node scripts to import content in the Nuxeo Platform using a CSV file.
 
 ## Important Note
 
@@ -29,12 +29,17 @@ node index.js
 
 ### Parameters
 
-*--username*, the user account to use for the import
-*--password*, the password for the user account to use for the import
-*--serverUrl*, the target server URL
-*--filePath*, the CSV file path
-*--concurrency*, the number of concurrent threads
-*--skipFileUpload*, create the document without uploading the binary files
+**--username**, the user account to use for the import
+
+**--password**, the password for the user account to use for the import
+
+**--serverUrl**, the target server URL
+
+**--filePath**, the CSV file path
+
+**--concurrency**, the number of concurrent threads
+
+**--skipFileUpload**, create the document without uploading the binary files
 
 
 ## Examples
