@@ -46,7 +46,7 @@ node index.js
 
 Run the importer without uploading the binaries
 ```
-node index.js --filePath=input.csv"
+node index.js --filePath=input.csv --skipFileUpload"
 ```
 
 ## Known limitations
